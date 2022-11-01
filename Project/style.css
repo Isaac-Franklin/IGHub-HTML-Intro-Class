@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+
+body{
+    /* background-color: black; */
+}
+nav img{
+    width: 20px;
+    margin-right: 6px;
+}
+
+nav{
+    
+    background-color: grey;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.callus, .gmailaddress{
+    display: flex;
+    align-items: center;
+}
+
+.subnav img{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    margin-top: 17px;
+}
+
+.subnav{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 18px 30px;
+    align-items: center;
+}
+
+.subnav2 ul{
+    display: flex;
+}
+
+.subnav2 ul li{
+    list-style: none;
+    margin-right: 5px;
+    /* margin-left: 20px; */
+}
+.subnav2{
+    display: flex;
+    width: 60%;
+}
+
+.subnav2 ul li{
+    /* background-color: white; */
+    border: none;
+    padding: 15px;
+    color: black;
+    font-size: 14px;
+    transition: 0.1s ease-in-out;
+}
+
+.subnav2 ul li:hover{
+    background-color: rgb(254,153,1);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+.active{
+    background-color: rgb(254,153,1);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainsection{
+    background-image: url("./images/banner2.jpg");
+    height: 95vh;
+    /* background-position: center; */
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.mainsectioninner h1{
+    color: white;
+    font-size: 5rem;
+}
+.mainsectioninner p{
+    margin-top: 1px;
+    color: white;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.mainsectioninner {
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.mainsectioninner button{
+    margin-top: 40px;
+    background-color: rgb(254,153,1);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 250px;
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 100px;
+}
